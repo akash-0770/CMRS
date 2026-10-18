@@ -1,0 +1,27 @@
+
+# Python virtual environment
+venv/
+backend/venv/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Database
+*.sqlite3
+db.sqlite3
+
+# Frontend dependencies and build
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+
+# Editors and OS
+.vscode/
+.DS_Store
